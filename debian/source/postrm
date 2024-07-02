@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "-正在卸载Gfxstream宿主支持后端"
+sudo rm -r /usr/local/include/gfxstream
+sudo rm -r /usr/local/include/rutabaga_gfx
+sudo rm /usr/local/lib/librutabaga_gfx_ffi.so
+sudo rm /usr/local/lib/librutabaga_gfx_ffi.so.0
+sudo rm /usr/local/lib/librutabaga_gfx_ffi.so.0.1.3
+sudo rm /usr/local/lib/x86_64-linux-gnu/libgfxstream_backend.a
+sudo rm /usr/local/lib/x86_64-linux-gnu/pkgconfig/gfxstream_backend.pc
+sudo rm /usr/local/lib/pkgconfig/rutabaga_gfx_ffi.pc
+echo "-卸载完成!"
+
