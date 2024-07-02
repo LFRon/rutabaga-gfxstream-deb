@@ -10,6 +10,7 @@
 #### 安装教程
 
 1.去这里下载安装Debian的AEMU依赖包:https://gitee.com/LFRon/aemu-for-debian/releases
+
 2.在Release页面下载deb安装包并安装(建议使用Gdebi安装器)
 
 #### 使用说明
