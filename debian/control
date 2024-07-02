@@ -1,0 +1,45 @@
+Source: gfxstream-backand
+Section: utils
+Priority: optional
+Rules-Requires-Root: no
+Maintainer: Google
+Build-Depends:
+ debhelper-compat (= 9),
+ libegl1-mesa-dev,
+ make,
+ aemu,
+ cmake,
+ pkgconf,
+ libdrm-dev,
+ libglm-dev,
+ libstb-dev,
+ ninja-build,
+ meson,
+ libegl-dev,
+ libgles-dev,
+ libvulkan-dev,
+ vulkan-utility-libraries-dev | vulkan-validationlayers-dev
+Standards-Version: 1.0.1
+Homepage:https://gitee.com/LFRon/rutabaga-gfxstream-deb
+
+
+Priority:optional
+Architecture: any
+Maintainer: LFRon <ronforever@outlook.com>,Google
+Homepage:https://gitee.com/LFRon/rutabaga-gfxstream-deb
+Depends:
+ libdrm-dev,
+ libegl1-mesa-dev,
+ libglm-dev,
+ libstb-dev,
+ aemu,
+ cmake,
+ ninja-build,
+ meson,
+ libegl-dev,
+ libgles-dev,
+ libvulkan-dev,
+ vulkan-utility-libraries-dev | vulkan-validationlayers-dev
+Package: gfxstream-backand
+Description: Google rutabaga_gfxstream Host backand for Debian
+
