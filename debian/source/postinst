@@ -1,4 +1,0 @@
-#!/bin/bash
-echo "-正在修复gfxstream链接关系问题"
-cd /usr/local/lib && sudo ln -sf librutabaga_gfx_ffi.so.0.1.3 librutabaga_gfx_ffi.so && ln -sf librutabaga_gfx_ffi.so.0.1.3 librutabaga_gfx_ffi.so.0
-echo "-完成!"
